@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
     <li><a class='nav-link' [routerLink]="['/products']">Product</a></li>
     </ul>
     </nav>
-    <div class='container'> 
+    <div class='container'>
       <router-outlet></router-outlet>
     </div>
   `
